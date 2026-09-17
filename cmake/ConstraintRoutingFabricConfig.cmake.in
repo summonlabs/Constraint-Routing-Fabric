@@ -1,0 +1,15 @@
+@PACKAGE_INIT@
+
+# ConstraintRoutingFabric (Summon Software Labs) -- CMake package configuration.
+# Consume with:
+#   find_package(ConstraintRoutingFabric CONFIG REQUIRED)
+#   target_link_libraries(app PRIVATE SummonSoftwareLabs::ConstraintRoutingFabric)
+
+if(NOT TARGET SummonSoftwareLabs::ConstraintRoutingFabric)
+  include("${CMAKE_CURRENT_LIST_DIR}/ConstraintRoutingFabricTargets.cmake")
+endif()
+
+set(ConstraintRoutingFabric_VERSION "@PROJECT_VERSION@")
+set(ConstraintRoutingFabric_FOUND TRUE)
+
+check_required_components(ConstraintRoutingFabric)

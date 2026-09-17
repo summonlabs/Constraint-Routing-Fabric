@@ -1,0 +1,6 @@
+add_executable(crf_examples crf_examples.cpp)
+target_link_libraries(crf_examples PRIVATE ConstraintRoutingFabric crf_warnings)
+set_target_properties(crf_examples PROPERTIES CXX_STANDARD 20 CXX_STANDARD_REQUIRED ON CXX_EXTENSIONS OFF)
+if(CRF_ENABLE_ASAN)
+  crf_enable_asan(crf_examples)
+endif()

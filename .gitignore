@@ -1,0 +1,26 @@
+# Build trees
+/build/
+/build-*/
+/out/
+/install/
+/_scratch/
+*.user
+*.suo
+.vs/
+.vscode/
+CMakeUserPresets.json
+compile_commands.json
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.iobj
+*.ipdb
+*.log
+*.tmp
+
+# Test scratch output
+/tests/scratch/
