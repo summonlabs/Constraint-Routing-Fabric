@@ -1,7 +1,7 @@
 # Constraint Routing Fabric
 
 **Constraint Routing Fabric 1.0.0** — the explicit constraint-evaluation and constrained-route-selection
-runtime of the Distributed Fabric Infrastructure / Fabric OS stack.
+runtime for data-center fabric infrastructure.
 
 Copyright 2026 Summon Software Labs. Apache License 2.0.
 
